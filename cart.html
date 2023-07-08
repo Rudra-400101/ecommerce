@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="header flex">
+        <!-- // logo -->
+
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <!-- // navigation button -->
+
+        <ul id="navbar" class="flex nav">
+            <li><a href="index.html"  class="hover ">Home</a></li>
+            <li><a href="shoppage.html" class=" hover">Shop</a></li>
+            <li><a href="about.html" class=" hover">About</a></li>
+            <li><a href="contact.html" class="hover">Contact</a></li>
+            <li class="lg-bags "><a href="cart.html"><i class="fal active fa fa-shopping-bag"></i></a></li>
+            <i id="close" class="fal fa fa-times"></i>
+        </ul>
+
+
+        <div class="hamburger"><a href="cart.html"><i class="fal fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fal fa-outdent fa"></i>
+        </div>
+    </div>
+     
+    <section class="cart-pg-header">
+        <h1>#Shoppig_Cart</h1>
+        <p> Add and purchase items.</p>
+      </section>
+      <section class="table-cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="fal fa fa-times-circle"></i></a></td>
+                <td><img src="https://w7.pngwing.com/pngs/826/253/png-transparent-t-shirt-polo-shirt-clothing-sleeve-black-t-shirt-black-crew-neck-t-shirt-tshirt-fashion-cloth-thumbnail.png"></td>
+                <td>Plane Nike T-shirt</td>
+                <td>$35.00</td>
+                <td><input type="number" value="1"></td>
+                <td>$35.00</td>
+
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fal fa fa-times-circle"></i></a></td>
+                <td><img src="https://w7.pngwing.com/pngs/512/604/png-transparent-t-shirt-polo-shirt-clothing-top-polo-shirt-white-polo-shirt-white-fashion-active-shirt-thumbnail.png"</td>
+                <td>Plane Nike T-shirt</td>
+                <td>$35.00</td>
+                <td><input type="number" value="1"></td>
+                <td>$35.00</td>
+
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fal fa fa-times-circle"></i></a></td>
+                <td> <img src="https://w7.pngwing.com/pngs/829/741/png-transparent-gray-crew-neck-t-shirt-t-shirt-polo-shirt-dress-shirt-gray-t-shirt-tshirt-fashion-color-thumbnail.png"</td>
+                <td>Plane Nike T-shirt</td>
+                <td>$35.00</td>
+                <td><input type="number" value="1"></td>
+                <td>$35.00</td>
+
+                </tr>
+            </tbody>
+        </table>
+      </section>
+      <section class="cart-add">
+        <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div><input type="text" placeholder="Enter your coupon">
+        <button class="coupon-button">Apply</button></div>
+        </div>
+        <div id="sub-total">
+            <table>
+                <h3>Cart Total</h3>
+                <tr>
+                    <td>cart subtotal</td>
+                    <td>$105.00</td>
+                </tr>
+                <tr>
+                    <td>shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$105.00</strong></td>
+                </tr>
+            </table>
+            <button class="checkout-btn">Proceed To Checkout</button>
+        </div>
+      </section>
+    <!-- footer -->
+
+    </div>
+    <footer class="section">
+        <div class="col">
+            <img src="logo.png" alt="logo">
+            <h4>contact</h4>
+            <p><strong>Address :</strong> Maholi Tarwa Mehnagar Azamgarh 276123,UP</p>
+            <p><strong>Phone no. :</strong>18000 45000, 1444 00 6780</p>
+            <p><strong>Hours :</strong> 9am - 7pm, mon-sat</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class=" fab fa-facebook-f"></i>
+                    <i class=" fab fa-instagram"></i>
+                    <i class=" fab fa-twitter"></i>
+                    <i class=" fab fa-youtube"></i>
+                    <i class=" fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col ">
+            <h4>Install App</h4>
+            <p>from app store and google app store</p>
+            <div class="row ">
+                <a href="#"><img class="install-img" src="appstore.png" alt=""></a>
+                <a href="#"><img class="install-img" src="googleappstore.png" alt=""></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img class="paymentgateway" src="paymentgateway.png" alt="">
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>© 2023, tech2 etc, Ecommerce templete</p>
+    </div>
+    </body>
+    <script src="script.js"></script>
+    
+</html>
